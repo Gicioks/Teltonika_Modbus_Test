@@ -54,4 +54,4 @@ Default flag values:
   - SSH user username: (`-u | --user`) default value - `'root'`
   - SSH user password: (`-p | --password`) default value - `'Admin123'`
 - MODBus flags:
-  - MODBus port: `-pM, --modbus-port`) default value - `502`
+  - MODBus port: (`-pM, --modbus-port`) default value - `502`
