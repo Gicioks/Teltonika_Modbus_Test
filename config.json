@@ -1,0 +1,34 @@
+{
+   "devices":[
+      {
+         "device":"RUTX11",
+         "results":{
+              "format":"csv"
+         },
+         "registers":[
+            {"register" : 1, "type":"uint32", "check_function":"get_uptime"},
+            {"register" : 39, "type":"text", "check_function":"get_serial"},
+            {"register" : 87, "type":"text", "check_function":"get_active_sim_slot"},
+            {"register" : 205, "type":"uint16", "check_function":"get_active_sim"},
+            {"register" : 183, "type":"float", "check_function":"get_gps_accuracy"},
+            {"register" : 5, "type":"int32", "check_function":"get_temperature"},
+            {"register" : 139, "type":"uint32", "check_function":"get_wan_ip"}
+         ]
+      },
+      {
+         "device":"RUT955",
+         "results":{
+            "format":"csv"
+         },
+         "registers":[
+            {"register" : 1, "type":"uint32", "check_function":"get_uptime"},
+            {"register" : 39, "type":"text", "check_function":"get_serial"},
+            {"register" : 87, "type":"text", "check_function":"get_active_sim_slot"},
+            {"register" : 205, "type":"uint16", "check_function":"get_active_sim"},
+            {"register" : 183, "type":"float", "check_function":"get_gps_accuracy"},
+            {"register" : 5, "type":"int32", "check_function":"get_temperature"},
+            {"register" : 139, "type":"uint32", "check_function":"get_wan_ip"}
+         ]
+      }
+   ]
+}
