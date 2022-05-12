@@ -41,8 +41,7 @@ pip3 install reprint
 ## Usage
 Run program as sudo with parameters: `sudo python3 ./main.py -D {device}`. For more information run `python3 ./main -h`
 
-Note: when connecting to devices via serial port, first turn off Modem Manager service by executing comman in terminal: `sudo systemctl stop ModemManager`
-
+Note: when connecting to devices via serial port, make sure ModBus is enabled under services tab.
 ## Flags
 Default flag values:
 - General flags:
