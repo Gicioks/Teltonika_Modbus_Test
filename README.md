@@ -46,11 +46,11 @@ Note: when connecting to devices via serial port, first turn off Modem Manager s
 ## Flags
 Default flag values:
 - General flags:
-  - Device name: (`-D", "--device`) no default value, **the device must be specified by the user**.
+  - Device name: (`-D, --device`) no default value, **the device must be specified by the user**.
   - IP address (`-a" | --ip`) default value - `'192.168.1.1'
 - SSH flags:
   - SSH port: (`-pS | --serial-port`) default value - `22`
-  - SSH IP address: (`-a" | --ip`) default value - `'192.168.1.1'`
+  - SSH IP address: (`-a | --ip`) default value - `'192.168.1.1'`
   - SSH user username: (`-u | --user`) default value - `'root'`
   - SSH user password: (`-p | --password`) default value - `'Admin123'`
 - MODBus flags:
